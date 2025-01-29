@@ -59,8 +59,8 @@ let LocalizationModule = LocalizationModule_1 = class LocalizationModule {
         };
     }
 };
-LocalizationModule = LocalizationModule_1 = __decorate([
+exports.LocalizationModule = LocalizationModule;
+exports.LocalizationModule = LocalizationModule = LocalizationModule_1 = __decorate([
     (0, common_1.Global)(),
     (0, common_1.Module)({ imports: [], providers: [] })
 ], LocalizationModule);
-exports.LocalizationModule = LocalizationModule;

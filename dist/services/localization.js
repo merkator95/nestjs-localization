@@ -146,15 +146,15 @@ let LocalizationService = LocalizationService_1 = class LocalizationService {
         });
     }
 };
+exports.LocalizationService = LocalizationService;
 LocalizationService.caseTypes = {
     UPPER_CASE: 1,
     LOWER_CASE: 2,
     SENTENCE_CASE: 3,
     UNKNOWN: 0,
 };
-LocalizationService = LocalizationService_1 = __decorate([
+exports.LocalizationService = LocalizationService = LocalizationService_1 = __decorate([
     (0, common_1.Injectable)(),
     __param(0, (0, common_1.Inject)(constants_1.CONFIG_OPTIONS)),
     __metadata("design:paramtypes", [Object])
 ], LocalizationService);
-exports.LocalizationService = LocalizationService;
